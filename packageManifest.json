@@ -1,0 +1,47 @@
+{
+  "packageName": "Alexa Pack",
+  "author": "Chris Truitt",
+  "version": "0.1.0",
+  "minimumHEVersion": "2.1.9",
+  "dateReleased": "2026-01-11",
+  "licenseFile": "https://raw.githubusercontent.com/truittchris/he_alexa_pack/main/LICENSE",
+  "releaseNotes": "Initial public release (v0.1).",
+  "documentationLink": "https://github.com/truittchris/he_alexa_pack#readme",
+  "communityLink": "https://community.hubitat.com/",
+  "apps": [
+    {
+      "id": "c07f3777-4d32-4f2a-b525-0a84caf28f57",
+      "name": "Alexa Pack Manager",
+      "namespace": "ctruitt",
+      "location": "https://raw.githubusercontent.com/truittchris/he_alexa_pack/main/apps/alexa_pack_manager.groovy",
+      "required": true,
+      "description": "Manager app that creates Alexa-friendly trigger devices and MultiTrigger groups."
+    }
+  ],
+  "drivers": [
+    {
+      "id": "8d06cad1-6e34-4b3c-94e8-2f575f6d5da7",
+      "name": "Alexa Pack \u2013 Virtual Contact Trigger",
+      "namespace": "ctruitt",
+      "location": "https://raw.githubusercontent.com/truittchris/he_alexa_pack/main/drivers/alexa_pack_virtual_contact_trigger.groovy",
+      "required": true,
+      "description": "Virtual contact sensor optimized for Alexa routines, with auto-reset, debouncing, and diagnostics."
+    },
+    {
+      "id": "6928e2ef-4605-4392-9677-fc30beb1a204",
+      "name": "Alexa Pack \u2013 Endpoint Contact",
+      "namespace": "ctruitt",
+      "location": "https://raw.githubusercontent.com/truittchris/he_alexa_pack/main/drivers/alexa_pack_endpoint_contact.groovy",
+      "required": true,
+      "description": "Contact endpoint device created as a child of Alexa Pack Manager for use as discrete Alexa routine triggers."
+    },
+    {
+      "id": "fc26f6d8-950e-4453-9c79-efbdf053193f",
+      "name": "Alexa Pack \u2013 MultiTrigger Controller",
+      "namespace": "ctruitt",
+      "location": "https://raw.githubusercontent.com/truittchris/he_alexa_pack/main/drivers/alexa_pack_multitrigger_controller.groovy",
+      "required": true,
+      "description": "Controller device used in Hubitat automations to trigger numbered endpoints (contact sensors) exposed to Alexa."
+    }
+  ]
+}

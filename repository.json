@@ -1,0 +1,12 @@
+{
+  "author": "Chris Truitt",
+  "gitHubUrl": "https://github.com/truittchris/he_alexa_pack",
+  "packages": [
+    {
+      "name": "Alexa Pack",
+      "category": "Integrations",
+      "location": "https://raw.githubusercontent.com/truittchris/he_alexa_pack/main/packageManifest.json",
+      "description": "Productized Alexa routine trigger devices for Hubitat, including MultiTrigger groups (controller + endpoints) with auto-reset, debouncing, and diagnostics."
+    }
+  ]
+}
