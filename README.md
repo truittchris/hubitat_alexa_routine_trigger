@@ -426,11 +426,5 @@ Double-fires
 
 
 
-\## License
-
-
-
-Choose your preferred license for publication (MIT is common for Hubitat community projects). If you add a LICENSE file, reference it here.
-
 
 
