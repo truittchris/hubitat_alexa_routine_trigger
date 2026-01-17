@@ -1,0 +1,12 @@
+{
+  "author": "Chris Truitt",
+  "gitHubUrl": "https://github.com/truittchris/hubitat_alexa_routine_trigger",
+  "packages": [
+    {
+      "name": "Hubitat Alexa Routine Trigger",
+      "category": "Integrations",
+      "location": "https://raw.githubusercontent.com/truittchris/hubitat_alexa_routine_trigger/main/hpm/packageManifest.json",
+      "description": "Creates Alexa-friendly virtual trigger devices (single triggers and trigger groups) for use in Alexa routines."
+    }
+  ]
+}
