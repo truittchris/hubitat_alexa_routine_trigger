@@ -29,6 +29,7 @@ Full steps: docs/setup.md
 ## Support and tips
 
 - Troubleshooting: docs/troubleshooting.md
+- Support website: https://christruitt.com/support
 - Tip jar: https://christruitt.com/tip-jar/
 
 ## License
